@@ -12,9 +12,9 @@ const OktaSignInWidget = (props, { onSuccess, onError }) => {
     }
 
     const widget = new OktaSignIn({
-        issuer:'https://yourtenantname.oktapreview.com/oauth2/default',
-        clientId:"0oa6torsmw961Q5U51d7",
-        redirectUri:"http://localhost:3000/login/callback",
+        issuer:'https://greenway-poc.okta.com/oauth2/default',
+        clientId:"0oa3z0rpoegDynKws697",
+        redirectUri:"https://greenwayspa.herokuapp.com/login/callback",
         useInteractionCodeFlow: true
     });
 
